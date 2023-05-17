@@ -9,9 +9,6 @@ public class Praktikum {
 
         String name = "Тимоти Шаламе";
         Account account = new Account(name);
-//        System.out.println(account.isNotWhiteSpaceInTheBegin());
-//        System.out.println(account.isNotWhiteSpaceInTheEnd());
-//        System.out.println(account.checkNameToEmboss());
         account.checkNameToEmboss();
     }
 
